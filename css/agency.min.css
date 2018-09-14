@@ -126,7 +126,8 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-    color: #fed136;
+    text-shadow: 2px 2px black;
+    color: white;
     font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
 }
 
@@ -186,7 +187,7 @@ img::-moz-selection {
 header.masthead {
     text-align: center;
     color: #fff;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url('../images/macbook_keyboard_three.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -221,6 +222,7 @@ header.masthead .intro-text .intro-heading {
     }
 
     header.masthead .intro-text .intro-lead-in {
+        text-shadow: 2px 2px black;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
@@ -233,7 +235,8 @@ header.masthead .intro-text .intro-heading {
         font-weight: 700;
         line-height: 75px;
         margin-bottom: 20px;
-        font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
+        font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+        text-shadow: 3px 3px black;ß
     }
 }
 
