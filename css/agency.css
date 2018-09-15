@@ -121,7 +121,7 @@ img::-moz-selection {
   text-transform: uppercase;
   color: #fff;
   border: 0;
-  background-color: #fed136;
+  background-color:lightsteelblue;
   font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
 }
 
@@ -192,15 +192,16 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: cover
+  background-size: cover;
 }
 
 header.masthead .intro-text {
   padding-top: 150px;
-  padding-bottom: 100px
+  padding-bottom: 100px;
 }
 
 header.masthead .intro-text .intro-lead-in {
+  text-shadow: 2px 2px black;
   font-size: 22px;
   font-style: italic;
   line-height: 22px;
@@ -209,6 +210,7 @@ header.masthead .intro-text .intro-lead-in {
 }
 
 header.masthead .intro-text .intro-heading {
+  text-shadow: 2px 2px black;
   font-size: 50px;
   font-weight: 700;
   line-height: 50px;
