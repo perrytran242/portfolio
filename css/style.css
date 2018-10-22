@@ -898,6 +898,17 @@ h2.menu-item:after {
     font-weight: 600;
 }
 
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skills-images {
+    width: 8%;
+    margin: 2%;
+}
+
 /*-------------------------------------------------------------------
 
                         5. NAME BLOCK

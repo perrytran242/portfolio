@@ -171,7 +171,6 @@
 	});
 
 	// Intialize Map
-	google.maps.event.addDomListener(window, 'load', init);
 
 	function init() {
 	    // Basic options for a simple Google Map
