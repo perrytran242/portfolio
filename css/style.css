@@ -46,6 +46,11 @@ body {
     overflow-x: hidden;
 }
 
+section {
+    background-image: url("./images/macbook_iphone.jpeg");
+    background-size: cover;
+}
+
 a {
     transition: all 0.3s;
 }
@@ -1007,7 +1012,6 @@ h2.menu-item:after {
 
 .social {
     position: absolute;
-    bottom: 15%;
 }
 
 .social li {
