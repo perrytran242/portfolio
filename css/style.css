@@ -210,11 +210,11 @@ html, body{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    height: 200px;
+    height: 600px;
 }
 
 .skills-images {
-    width: 8%;
+    width: 12%;
     margin: 2%;
 }
 
