@@ -38,7 +38,7 @@ if ($output['success'] !== null) {
 
 
 $mail = new PHPMailer\PHPMailer\PHPMailer;
-$mail->SMTPDebug = 3;    
+$mail->SMTPDebug = 0;    
 $mail->isSMTP();                // Set mailer to use SMTP.
 $mail->Host = 'smtp.gmail.com'; // Specify main and backup SMTP servers.
 $mail->SMTPAuth = true;         // Enable SMTP authentication
@@ -77,6 +77,7 @@ if(!$mail->send()) {
     $output['messages'][] = $mail->ErrorInfo;
 } else {
     $output['success'] = true;
+    $output['messages'] = 'message has been sent';
 };
 echo json_encode($output);
 ?>
